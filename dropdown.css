@@ -1,0 +1,368 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: sans-serif;
+ 
+}
+
+.main{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    
+    display: flex;
+   
+   
+}
+.div1{
+    background-color: black;
+}
+head{
+    margin-bottom: -10px;
+}
+.div2{
+    
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+
+   
+}
+.box2,.box{
+    height: 450px;
+    width: 28%;
+    background-color: rgba(255, 255, 255, 0.15);
+  
+    margin: auto;
+    border-radius: 15px;
+    
+    
+}
+.box2{
+     background-color: rgba(39, 251, 241, 0.15);
+     border: 2px solid aqua;
+     
+
+}
+.p1{
+    font-size: 20px;
+    color: whitesmoke   ;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.box:hover{
+    backdrop-filter: blur(10px) saturate(150%);
+    box-shadow: 0 0 10px aqua;
+    transition: all 0.3s ease;
+   
+    animation-name: card;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+     background-color: rgba(39, 251, 241, 0.15);
+     border: 2px solid aqua;
+    
+    
+}
+.box2:hover{
+    backdrop-filter: blur(10px) saturate(150%);
+    box-shadow: 0 0 10px aqua;
+    transition: all 0.3s ease;
+   
+    animation-name: card;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+     border: 2px solid aqua;
+    
+    
+}
+@keyframes card{
+        from{
+            scale: 1;
+        }
+        to{
+            scale: 0.95;
+        }
+
+      }
+li{
+    font-size:15px;
+    color: rgb(221, 221, 221);
+    font-family: sans-serif;
+}
+.h1,h2{
+    font-family: sans-serif;
+
+}
+.h{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    
+    margin-bottom: 50px;
+}
+h1{
+    margin-top: -10px;
+    color: rgb(0, 136, 112);
+}
+h2{
+    color: whitesmoke;
+}
+span{ 
+    color: gray;
+    
+}
+.s1{
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+button{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 15px;
+    border-width: 0px;
+    font-family: sans-serif;
+    cursor: pointer;
+    color: white;
+   background-color: rgb(0, 136, 112);
+    margin-left: 100px;
+}
+button:hover{
+    background-color:rgb(4, 201, 165) ;
+    color: whitesmoke;
+    
+}
+.footer{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-family: sans-serif;
+}
+.but{
+    background-color: rgb(0, 136, 112);
+    width: 2%;
+    height:200px;
+}
+.f1{
+    width: 50%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: rgb(0, 136, 112);
+}
+.fp{
+    color:whitesmoke;
+}
+    
+
+
+.f1:hover{
+   border: 2px solid aqua;
+    background-color:rgb(0, 136, 112) ;
+    box-shadow: 0 0 10px aqua;
+    color: whitesmoke;
+  
+
+}
+.contact{
+    height: 200px;
+    color: white;
+}
+.contactin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+ .card{
+    height: 950px;
+    width: 30%;
+    background-color: rgba(0, 136, 112, 0.99);
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+ }  
+ .card h2{
+    font-size: 35px;
+ } 
+ .card p{
+    font-size: 20px;
+    color: whitesmoke;
+ }
+ .fllow{
+    color: whitesmoke;
+ }
+ .cardin{
+    width: 90%;
+    height: 80px;
+    background-color: rgb(74, 224, 197);
+    border-radius: 10px;
+    color: whitesmoke;
+    padding-left: 40px;
+
+ }
+ .cardin:hover{
+    translate: 0px -5px ;
+    cursor: pointer;
+ }
+ .cardin h3{
+    height: 5px;
+ }
+ .lokesh{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+ }
+ .circle{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(74, 224, 197);
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+
+    justify-content: center;
+ }
+ .social{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+ }
+ i{
+    height: 20px;
+    width: 100%;
+    border-radius: 100px;
+   color: whitesmoke;
+   
+ }
+ .card2{
+    height: 960px;
+    width:65%;
+    
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+ }
+ .imgdiv{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+
+    
+ }
+ img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+ }
+ 
+.cardout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.formt{
+    height: 640px;
+    width: 100%;
+    margin-top: 20px;
+    background-color:rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    
+}
+.formt input{
+    height: 60px;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 15px;
+    margin-left: 10%;
+    background-color:rgba(255, 255, 255, 0.15);
+    color: gray;
+
+}
+  
+.formdiv{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+.inp2{
+    height: 150px;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 15px;
+    margin-left: 10%;
+    color: gray;
+    background-color:rgba(255, 255, 255, 0.15);
+
+}
+.btn1{
+    height: 50px;
+    width: 80%;
+    border-radius: 25px;
+    font-size: 15px;
+    border-width: 0px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-top: 5px;
+    color: white;
+   background-color: rgb(0, 136, 112);
+   
+}
+.send{
+    color: whitesmoke;
+    margin-left: 10%;
+    font-size: 25px;
+    
+}
+.lorem{
+    color: gray;
+    margin-left: 10%;
+}
+h4{
+    color: rgb(100, 179, 167);
+}
+.di{
+    color: rgb(221, 219, 219);
+}
