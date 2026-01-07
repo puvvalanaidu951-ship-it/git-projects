@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <script src="https://kit.fontawesome.com/b2ca557543.js" crossorigin="anonymous"></script>
+    <title>Document</title>
     <style>
         body{
             background-color: black;
@@ -19,9 +18,13 @@
             justify-content: space-around;
             padding: 20px;
             align-items: center;
-            position: sticky;
-            border: 1px solid white;
             color: white;
+            background-color: black;
+            position: fixed;
+            opacity: 0.9;
+            top: 0;
+            width: 100%;
+            
         }
         .list{
             display: flex;
@@ -34,6 +37,7 @@
             text-align: center;
             padding-bottom: 30px;
             color: white;
+
         }
         .textp{
             color: white;
@@ -82,18 +86,12 @@
             
         }
         .card:hover{
-            animation-name: carda;
-            animation-duration: 5s;
-            animation-iteration-count: infinite;
+            cursor: pointer;
+            translate: 0px -10px;
+            box-shadow: 0 10px 20px rgba(256,256,256,0.3);
+            transition: 0.3s;            
         }
-        @keyframes carda {
-            from{
-                scale: 1;
-            }
-            to{
-                scale: 0.95;
-            }
-        }
+       
         .container{
             padding-top: 50px;
             padding-bottom: 30px;
