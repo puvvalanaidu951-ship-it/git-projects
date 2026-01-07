@@ -196,7 +196,7 @@ button:hover{
     height: 100%;
     width: 100%;
 }
- .card{
+ .card1{
     height: 950px;
     width: 30%;
     background-color: rgba(0, 136, 112, 0.99);
@@ -207,10 +207,10 @@ button:hover{
     gap: 20px;
     padding: 10px;
  }  
- .card h2{
+ .card1 h2{
     font-size: 35px;
  } 
- .card p{
+ .card1 p{
     font-size: 20px;
     color: whitesmoke;
  }
