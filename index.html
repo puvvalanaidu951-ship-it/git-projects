@@ -22,12 +22,12 @@
             padding: 20px;
             align-items: center;
             color: white;
-            background-color: black;
+            background-color: rgba(0, 0, 0, 0.35);
+            backdrop-filter: blur(5px);
             position: fixed;
-            opacity: 0.9;
             top: 0;
             width: 100%;
-            
+         
         }
         .list{
             display: flex;
@@ -35,9 +35,16 @@
             font-size: 20px;
             list-style: none;
         }
+        .list li:hover{
+            cursor: pointer;
+            color: cadetblue;
+        }
         .texth1{
             font-size: 60px;
             text-align: center;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 50px;
             padding-bottom: 30px;
             color: white;
 
@@ -49,6 +56,7 @@
             padding-right: 150px;
             text-align: center;
             padding-bottom: 50px;
+            color: rgb(115, 236, 214);
         }
         .bodyt{
             padding: 100px 300px 80px 300px;
@@ -62,20 +70,28 @@
             background-color:cadetblue;
             color: white;
             font-weight: bolder;
-            
+        }
+        .homebutton:hover{
+            cursor: pointer;
+            background-color: rgb(0, 136, 112);
+            transition: 0.3s;
         }
         .butmi{
-            
             display: flex;
             justify-content:center;
-            gap: 40px;
-            padding-bottom: 70px;
+            
         }
         .image{
-           text-align: center;
+            display: flex;
+            justify-content: center;  
+            padding-bottom: 70px;
+            padding-top: 50px;
         }
-        .image1{
-            border-radius: 30px;
+        .image img{
+            width: 50%;
+            height: 500px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px rgba(90, 205, 234, 0.5);
         }
         .card{
             width: 11%;
@@ -361,7 +377,7 @@
         </div>
     </div>
     <div class="image">
-        <img src="about-15.webp" height="600px" width="60%" class="image1">
+        <img class="image1" src="about-15.webp">
     </div>
 
     <div class="container">
