@@ -18,8 +18,8 @@ body{
 .div1{
     background-color: black;
 }
-head{
-    margin-bottom: -10px;
+.head{
+   font-weight: 750;
 }
 .div2{
     
@@ -72,12 +72,12 @@ head{
 .box2:hover{
     backdrop-filter: blur(10px) saturate(150%);
     box-shadow: 0 0 10px aqua;
-    transition: all 0.3s ease;
+    transition: all 0.9s ease;
    
     animation-name: card;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    
+    transition: all 0.3s ease;
      border: 2px solid aqua;
     
     
@@ -140,6 +140,8 @@ button{
 button:hover{
     background-color:rgb(4, 201, 165) ;
     color: whitesmoke;
+    transition: all 0.3s ease;
+
     
 }
 .footer{
@@ -227,6 +229,8 @@ button:hover{
  .cardin:hover{
     translate: 0px -5px ;
     cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px aqua;
  }
  .cardin h3{
     height: 5px;
