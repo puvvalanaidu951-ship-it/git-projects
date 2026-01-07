@@ -3,17 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lowfids</title>
-
+    <title>Home</title>
+    <script src="https://kit.fontawesome.com/b2ca557543.js" crossorigin="anonymous"></script>
     <style>
+        body{
+            background-color: black;
+            
+        }
         *{
             margin: 0;
             border: 0;
-            overflow: hidden;
+        }
+        .nav{
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            align-items: center;
+            position: sticky;
+            border: 1px solid white;
+            color: white;
+        }
+        .list{
+            display: flex;
+            gap: 50px;
+            font-size: 20px;
+            list-style: none;
+        }
+        .texth1{
+            font-size: 60px;
+            text-align: center;
+            padding-bottom: 30px;
+            color: white;
+        }
+        .textp{
+            color: white;
+            font-size: 20px;
+            padding-left:150px ;
+            padding-right: 150px;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        .bodyt{
+            padding: 100px 300px 80px 300px;
+            
+            height: 320px;
+        }
+        .homebutton{
+            height: 55px;
+            width: 25%;
+            border-radius: 25px;
+            background-color:cadetblue;
+            color: white;
+            font-weight: bolder;
+            
+        }
+        .butmi{
+            
+            display: flex;
+            justify-content:center;
+            gap: 40px;
+            padding-bottom: 70px;
+        }
+        .image{
+           text-align: center;
+        }
+        .image1{
+            border-radius: 30px;
+        }
+        .card{
+            width: 11%;
+            height: 100px;
+            background-color: rgba(255, 255, 255, 0.15);
+            border-radius: 15px;
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            padding: 50px;
+            
+        }
+        .card:hover{
+            animation-name: carda;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes carda {
+            from{
+                scale: 1;
+            }
+            to{
+                scale: 0.95;
+            }
+        }
+        .container{
+            padding-top: 50px;
+            padding-bottom: 30px;
+            justify-content: center;
+            display: flex;
+            gap: 20px;
+            
+        }
+        .h55{
+            color: cadetblue;
+            font-size: 20px;
         }
     </style>
 </head>
 <body>
-    
+    <div class="nav">
+        <div>
+            <h1>
+                Nexa
+            </h1>
+        </div>
+        <div class="listout">
+            <ul class="list">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Portfolio</li>
+                <li>Team</li>
+                <li>Dropdown</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="bodyt">
+        <h1 class="texth1">Innovative Business Solutions <br>for Tomorrow</b></h1>
+        <p class="textp">Pellentesque habitant morbi tristique senectus et <br> netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, <br>feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+        <div class="butmi">
+            <button class="homebutton"><b>START YOUT JOURNEY</b></button>
+            <button class="homebutton"><b>WATCH DEMO</b></button>
+        </div>
+    </div>
+    <div class="image">
+        <img src="about-15.webp" height="600px" width="60%" class="image1">
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <i class="fa-solid fa-trophy" class="items"></i>
+            <h4 >25+</h4>
+            <h5 class="h55">Awards Won</h5>
+          
+        </div>
+        <div class="card">
+            <div class="images">
+            <i class="fa-solid fa-address-book" ></i>
+            </div>
+            <h4>850+</h4>
+            <h5 class="h55">Happy Clients</h5>
+           
+        </div>
+        <div class="card">
+            <div class="images">
+            <i class="fa-solid fa-address-book" ></i>
+            </div>
+            <h4>95%</h4>
+            <h5 class="h55">Project Success</h5>
+        </div>
+        <div class="card">
+            <div class="images">
+            <i class="fa-solid fa-address-book" ></i>
+            </div>
+            <h4>12+</h4>
+            <h5 class="h55">Countries Served</h5>
+        </div>
+    </div>
 </body>
 </html>
