@@ -18,8 +18,9 @@ body{
 .div1{
     background-color: black;
 }
-.head{
-   font-weight: 750;
+.hea{
+    color: rgb(0, 136, 112);
+  
 }
 .div2{
     
@@ -114,7 +115,7 @@ li{
     margin-bottom: 50px;
 }
 .hh1{
-    margin-top: -10px;
+    
     color: rgb(0, 136, 112);
 }
 .hh2{
@@ -202,7 +203,7 @@ button:hover{
     width: 100%;
 }
  .card1{
-    height: 950px;
+    height: 900px;
     width: 30%;
     background-color: rgba(0, 136, 112, 0.99);
     border-radius: 10px;
@@ -225,6 +226,7 @@ button:hover{
  .cardin{
     width: 90%;
     height: 80px;
+    margin-top: 10px;
     background-color: rgb(74, 224, 197);
     border-radius: 10px;
     color: whitesmoke;
@@ -278,7 +280,7 @@ button:hover{
    
  }
  .card2{
-    height: 960px;
+    height: 920px;
     width:65%;
     
     border-radius: 10px;
