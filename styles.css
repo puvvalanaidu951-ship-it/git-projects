@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #0b1211;
+  color: #e6e6e6;
+}
+
+.services {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+/* Card */
+.service-card {
+  display: flex;
+  background: #1b1f23;
+  border-radius: 18px;
+  overflow: hidden;
+  position: relative;
+  min-height: 220px;
+}
+
+/* Highlighted card */
+.service-card.active .accent {
+  background: #008f7a;
+}
+
+.service-card.active a {
+  color: #00d1b2;
+}
+
+/* Left accent strip */
+.accent {
+  width: 72px;
+  background: #132020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 26px;
+  color: #00d1b2;
+}
+
+/* Content */
+.content {
+  padding: 32px;
+  position: relative;
+}
+
+.content h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.content p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #b8b8b8;
+  max-width: 420px;
+}
+
+.content a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  color: #00bfa5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+/* Large faded number */
+.number {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  font-size: 64px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.05);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
