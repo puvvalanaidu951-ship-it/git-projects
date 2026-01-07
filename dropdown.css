@@ -18,8 +18,9 @@ body{
 .div1{
     background-color: black;
 }
-.head{
-   font-weight: 750;
+.hea{
+    color: rgb(0, 136, 112);
+  
 }
 .div2{
     
@@ -96,7 +97,11 @@ li{
     color: rgb(221, 221, 221);
     font-family: sans-serif;
 }
-.h1,h2{
+.hh1{
+    font-family: sans-serif;
+
+}
+.hh2{
     font-family: sans-serif;
 
 }
@@ -106,21 +111,21 @@ li{
     align-items: center;
     width: 100%;
     height: 100px;
-    
+    margin-top: 20px;
     margin-bottom: 50px;
 }
-h1{
-    margin-top: -10px;
+.hh1{
+    
     color: rgb(0, 136, 112);
 }
-h2{
+.hh2{
     color: whitesmoke;
 }
 span{ 
     color: gray;
     
 }
-.s1{
+.ss1{
     font-size: 15px;
     font-family: sans-serif;
 
@@ -163,7 +168,7 @@ button:hover{
 }
 .f1{
     width: 50%;
-    height: 200px;
+    height: 220px;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 10px;
     margin-bottom: 20px;
@@ -171,6 +176,7 @@ button:hover{
     color: rgb(0, 136, 112);
 }
 .fp{
+    margin-top: 10px;
     color:whitesmoke;
 }
     
@@ -197,7 +203,7 @@ button:hover{
     width: 100%;
 }
  .card1{
-    height: 950px;
+    height: 900px;
     width: 30%;
     background-color: rgba(0, 136, 112, 0.99);
     border-radius: 10px;
@@ -220,6 +226,7 @@ button:hover{
  .cardin{
     width: 90%;
     height: 80px;
+    margin-top: 10px;
     background-color: rgb(74, 224, 197);
     border-radius: 10px;
     color: whitesmoke;
@@ -232,7 +239,8 @@ button:hover{
     transition: all 0.3s ease;
     box-shadow: 0 0 10px aqua;
  }
- .cardin h3{
+ .hh3{
+    margin-top: 10px;
     height: 5px;
  }
  .lokesh{
@@ -272,7 +280,7 @@ button:hover{
    
  }
  .card2{
-    height: 960px;
+    height: 920px;
     width:65%;
     
     border-radius: 10px;
@@ -349,7 +357,7 @@ button:hover{
     border-width: 0px;
     font-family: sans-serif;
     cursor: pointer;
-    margin-top: 5px;
+    margin-top: 20px;
     color: white;
    background-color: rgb(0, 136, 112);
    
@@ -357,14 +365,17 @@ button:hover{
 .send{
     color: whitesmoke;
     margin-left: 10%;
+    margin-top: 10px;
     font-size: 25px;
     
 }
 .lorem{
     color: gray;
+    margin-top: 10px;
     margin-left: 10%;
 }
-h4{
+.hh4{
+    margin-top: 20px;
     color: rgb(100, 179, 167);
 }
 .di{
